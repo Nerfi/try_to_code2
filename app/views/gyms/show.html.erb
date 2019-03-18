@@ -1,0 +1,35 @@
+
+
+<p>
+
+<div class="container ">
+  <div class="row">
+    <div class="col-xs-offset-3   col-lg-offset-4">
+      <div class="cards">
+        <!-- aqui iba antes cl_image_tag -->
+
+  <strong>Name:</strong>
+  <%= @gym.name %>
+</p>
+<p>
+  <strong>Description:  </strong>
+  <%= @gym.description %>
+</p>
+<p>
+  <strong>Address:</strong>
+   <%= @gym.address %>
+
+</p>
+<p>
+  <strong> Price:</strong>
+  <%= @gym.pricing %>
+</p>
+   <%= link_to 'Edit', edit_gym_path(@gym) %> |
+   <%= link_to 'Back', gyms_path %>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!-- once pundit is set up we can use the normal links like 'Edit' and so on , because when we set up pundit in the gym policy he takes care of all  -->
+

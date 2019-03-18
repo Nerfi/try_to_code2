@@ -16,6 +16,13 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+#adding gems to the project
+gem 'pundit'
+gem 'devise'
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.9.1'
+gem 'carrierwave', '~> 1.2'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
